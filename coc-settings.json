@@ -1,0 +1,20 @@
+{
+    "languageserver": {
+        "go": {
+            "command": "gopls",
+            "rootPatterns": [
+                "go.mod",
+                ".git/"
+            ],
+            "filetypes": [
+                "go"
+            ],
+            "initializationOptions": {
+                "usePlaceholders": true
+            }
+        }
+    },
+    "suggest.noselect": true,
+    "coc.preferences.formatOnSave": true,
+    "coc.preferences.formatOnSaveTimeout": 300,
+}

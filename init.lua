@@ -1,3 +1,11 @@
+-- setting amount of strings to scroll
+vim.opt.scroll = 4
+vim.opt.signcolumn = "yes"
+
+-- user settings for screen scrolling
+vim.keymap.set("n", "<C-f>", "4jzz", { noremap = true, silent = true})
+vim.keymap.set("n", "<C-d>", "4kzz", { noremap = true, silent = true })
+
 -- string numbering
 vim.wo.number = true
 
@@ -14,9 +22,8 @@ vim.o.swapfile = false
 
 -- neovim plugins
 require("plugins")
-require("treesitter")
-require("nerdtree")
-require("gopls")
-require("autocmp")
 require("fzf")
 require("theme")
+require("coc-nvim")
+require("nerdtree")
+require("treesitter")
