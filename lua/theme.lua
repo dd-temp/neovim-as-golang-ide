@@ -1,1 +1,5 @@
-vim.cmd[[colorscheme tokyonight]]
+require("catppuccin").setup({
+    flavour = "frappe",
+})
+
+vim.cmd.colorscheme "catppuccin"
