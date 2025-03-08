@@ -12,7 +12,6 @@ vim.g.coc_global_extensions = {
 -- Main bindings for LSP
 vim.api.nvim_set_keymap("n", "<C-LeftMouse>", "<Plug>(coc-definition)", { silent = true })
 vim.api.nvim_set_keymap("i", "<C-LeftMouse>", "<Esc><Plug>(coc-definition)", { silent = true })
-vim.api.nvim_set_keymap("n", "<C-F12>", "<Plug>(coc-format)", { silent = true })
 
 -- Code formatting
 vim.api.nvim_set_keymap(
