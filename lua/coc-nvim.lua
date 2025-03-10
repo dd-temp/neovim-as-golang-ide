@@ -16,7 +16,7 @@ vim.api.nvim_set_keymap("i", "<C-LeftMouse>", "<Esc><Plug>(coc-definition)", { s
 -- Code formatting
 vim.api.nvim_set_keymap(
     "n", 
-    "<C-F12>", 
+    "<C-F11>",
     ":CocCommand editor.action.formatDocument<CR>", 
     { silent = true, noremap = true }
 )
