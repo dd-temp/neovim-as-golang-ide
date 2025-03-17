@@ -6,7 +6,7 @@ vim.g.coc_global_extensions = {
     "coc-go", 
     "coc-json", 
     "coc-tsserver", 
-    "coc-pyright" 
+    "coc-pyright"
 }
 
 -- Main bindings for LSP
@@ -16,7 +16,7 @@ vim.api.nvim_set_keymap("i", "<C-LeftMouse>", "<Esc><Plug>(coc-definition)", { s
 -- Code formatting
 vim.api.nvim_set_keymap(
     "n", 
-    "<C-F11>",
+    "<C-F12>",
     ":CocCommand editor.action.formatDocument<CR>", 
     { silent = true, noremap = true }
 )
